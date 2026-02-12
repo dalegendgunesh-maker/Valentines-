@@ -97,6 +97,7 @@ function showMessage(response) {
     // Remove the name message and the "No" button
     document.getElementById("name").remove();
     document.getElementById("no-button").remove();
+    document.getElementById("tagline").style.display = "none";
 
     // Stop and remove video player (YouTube or Local)
     const playerContainer = document.getElementById('youtube-player-container');
