@@ -40,6 +40,8 @@ function onPlayerError(event) {
 }
 
 function showMessage(response) {
+  const tagline = document.getElementById("tagline");
+  if (tagline) tagline.style.display = "none";
   let videoPlayed = false;
   if (response === "No") {
     document.getElementById("tagline").style.display = "none";
