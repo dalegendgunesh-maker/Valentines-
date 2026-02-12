@@ -125,3 +125,15 @@ body .container {
     transform: translate(0, 0);
   }
 }
+/* FORCE ALL TEXT TO WHITE (override everything) */
+body, h1, h2, h3, p, span, div, a, button, label {
+  color: #ffffff !important;
+  -webkit-text-stroke: 0 !important;
+ text-shadow: 0 2px 12px rgba(0,0,0,0.55) !important;
+
+/* If you have custom classes */
+.hh, .pp, .subtext {
+  color: #ffffff !important;
+  -webkit-text-stroke: 0 !important;
+ text-shadow: 0 2px 12px rgba(0,0,0,0.55) !important;
+}
