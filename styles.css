@@ -82,7 +82,7 @@ body .container {
   font-size: 26px;
   cursor: pointer;
   position: relative;
-  font-family: "Lobster", cursive;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .buttons button:hover {
