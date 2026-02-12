@@ -12,13 +12,10 @@ body {
 }
 .hh {
   color: #ffffff; /* WHITE */
-  -webkit-text-stroke: 2px #71004f;
   font-weight: 900;
 }
 .pp {
-  color: #ff1f1f; /* RED */
-  -webkit-text-stroke: 2px #71004f;
-  font-size: 50px;
+  color: #ffffff; /* WHITE */
   font-style: oblique;
   font-weight: 800;
 }
