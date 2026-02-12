@@ -42,6 +42,7 @@ function onPlayerError(event) {
 function showMessage(response) {
   let videoPlayed = false;
   if (response === "No") {
+    document.getElementById("tagline").style.display = "none";
     const noButton = document.getElementById("no-button");
     const maxWidth = window.innerWidth - noButton.offsetWidth;
     const maxHeight = window.innerHeight - noButton.offsetHeight;
@@ -62,7 +63,7 @@ function showMessage(response) {
 
     // Update text content and hide the name message
     document.getElementById("question").textContent =
-      "Choose wisely";
+      "WYM BRUH TF!?!?😦";
     document.getElementById("name").style.display = "none";
 
     // Add a mouseover event listener to the "No" button
